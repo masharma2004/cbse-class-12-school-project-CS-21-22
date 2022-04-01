@@ -60,7 +60,7 @@ def delete():
 	mql="DELETE FROM Vaccine WHERE Vaccine_name='%s'"%(vname)
 	mycursor.execute(mql)
 	print("record removed.")
-		
+#Main code		
 while True:
 	print("Welcome to Vaccination Services")
 	print("Type: 1 for adding new vaccine details \n 2 for updating vaccine details\n 3 for updating vaccine stocks \n 4 for showing all data \n 5 for deleting vaccine  \n 6 for exit "  )
